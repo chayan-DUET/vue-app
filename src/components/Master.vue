@@ -12,7 +12,7 @@
 	<!--================End Footer Area =================-->
 
 </template>
-
+ 
 <script>
 import Footer from './forntend/Footer.vue';
 import Header from './forntend/Header.vue';
