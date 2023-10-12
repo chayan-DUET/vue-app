@@ -16,7 +16,7 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><RouterLink class="nav-link" to="/">Home</RouterLink></li>
 							<li class="nav-item"><RouterLink class="nav-link" to="/about">About</RouterLink></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item"><router-link class="nav-link" to="/services">Services</router-link></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -30,11 +30,11 @@
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Blog</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+									<li class="nav-item"><router-link class="nav-link" to="/blog">Blog</router-link></li>
 									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><RouterLink class="nav-link" to="/contact">Contact</RouterLink></li>
 						</ul>
 					</div>
 				</div>

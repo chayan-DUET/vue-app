@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Master from '../components/Master.vue';
-import Home from '../components/home.vue';
+import Home from '../components/Home.vue';
 
 
 const router = createRouter({
@@ -28,6 +28,22 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/service.vue')
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/blog.vue')
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Contact.vue')
     }
   ]
 })
